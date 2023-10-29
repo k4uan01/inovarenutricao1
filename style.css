@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;   
+}
+
+body{
+    background-image: url(gradient_green_texture_131365_3840x2160.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+
+
+/* Icones de contato */
+#github{
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+    font-size: 35px;
+}
+#linkedin{
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+    font-size: 35px;
+}
+#email{
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+    font-size: 35px;
+}
+#code{
+    font-size: 45px;
+}
+/*Fim icones */
+
+#html:hover{
+    opacity: 0.3;
+    transform: scale(1.1);
+}
+
+#css:hover{
+    opacity: 0.3;
+    transform: scale(1.1);
+}
+
+/*Sobre min*/
+main{
+    background-color: rgba(255, 255, 255, 0.158);
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    width: 500px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: justify;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.219);
+    margin-top: -333px;
+    margin-left: 1300px;
+}
+
+main:hover{
+    transform: scale(1.07);
+    transition: 1s;
+}
+/*FIM Sobre min*/
+.Skills{
+    margin-top: 300px;
+}
+.ola{
+    text-align: center;
+    margin-top: 60px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
